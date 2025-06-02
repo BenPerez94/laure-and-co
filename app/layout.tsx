@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/src/components/Header";
 import { Playwrite_DK_Loopet } from "next/font/google";
+import Footer from "@/src/components/Footer";
 
 const playwrite = Playwrite_DK_Loopet({
   variable: "--font-playwrite",
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
