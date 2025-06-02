@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="mx-auto mt-12">
-      <div className="container px-32 pb-12 mx-auto">
+      <div className="container pb-12 mx-auto">
         <div className="px-12 py-8 mb-8 ">
           <h2 className="mb-6">Qui sommes-nous ?</h2>
           <p>
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       <div className="px-12 py-8 rounded-lg shadow-lg bg-secondary">
-        <div className="container px-32 mx-auto">
+        <div className="container mx-auto">
           <h2 className="mb-10 text-center text-white">
             Mes deux coéquipières
           </h2>
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </div>
       <div className="px-12 py-16 bg-white rounded-lg shadow-lg ">
-        <div className="container px-32 mx-auto">
+        <div className="container mx-auto">
           <h2 className="mb-16 text-center">Comment accueillir une séance ?</h2>
           <div className="flex justify-between gap-8 text-center">
             <div className="w-1/3 p-6 px-12 rounded-lg shadow-lg">
@@ -135,7 +135,7 @@ export default function Home() {
       </div>
 
       <div className="px-12 py-16 rounded-lg shadow-lg bg-primary ">
-        <div className="container px-32 mx-auto">
+        <div className="container mx-auto">
           <h2 className="mb-12 text-center text-white">
             Qu’est-ce que l’AAA et la TAA?
           </h2>
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <div className="container px-32 py-16 mx-auto">
+        <div className="container py-16 mx-auto">
           <h2 className="text-center">Tarifs et préstations</h2>
           <div>
             <h3 className="py-6 text-center">
@@ -206,7 +206,7 @@ export default function Home() {
                   </p>
                   <p className="text-primary">
                     <b>TARIF : de 200€ à 280€ selon la formule choisi*.</b>{" "}
-                    <br />* sur demande.
+                    <br /> <i>* sur demande.</i>
                   </p>
                 </div>
                 <div className="w-full px-12 py-8 mb-8 bg-white rounded-lg shadow-lg">
@@ -225,7 +225,7 @@ export default function Home() {
               </div>
               <div className="w-1/2 px-12 py-8 mb-8 bg-white rounded-lg shadow-lg">
                 <h4>Exemples d’objectifs d’animation</h4>
-                <ul className="my-12">
+                <ul className="my-4">
                   <li>Apaiser les angoisses et l’anxiété</li>
                   <li>Échanges et interactions</li>
                   <li>Stimuler la motricité</li>
@@ -234,7 +234,7 @@ export default function Home() {
                   <li>Apporter de la joie et de la tendresse</li>
                 </ul>
                 <h4>Informations</h4>
-                <ul className="my-12">
+                <ul className="my-4">
                   <li>
                     Les participants peuvent différer d’une séance à une autre
                   </li>
@@ -284,7 +284,7 @@ export default function Home() {
               </div>
               <div className="w-1/2 px-12 py-8 mb-8 bg-white rounded-lg shadow-lg">
                 <h4>Exemples d’objectifs d’animation</h4>
-                <ul className="my-10">
+                <ul className="my-4">
                   <li>Apaiser les angoisses et l’anxiété</li>
                   <li>Valorisation du bénéficiaire</li>
                   <li>Améliorer les interactions sociales</li>
@@ -292,7 +292,7 @@ export default function Home() {
                   <li>Rompre l’isolement et la solitude</li>
                 </ul>
                 <h4>Informations</h4>
-                <ul className="my-12">
+                <ul className="my-4">
                   <li>
                     Les mêmes participant à chaque cycle de séances (suivies)
                   </li>
@@ -334,14 +334,14 @@ export default function Home() {
               </div>
               <div className="w-1/2 px-12 py-8 mb-8 bg-white rounded-lg shadow-lg">
                 <h4>Exemples d’objectifs</h4>
-                <ul className="my-6">
+                <ul className="my-4">
                   <li>Rompre l’isolement, la solitude</li>
                   <li>Améliorer la motricité</li>
                   <li>Améliorer le moral</li>
                   <li>Stimuler la communication et la mémoire</li>
                 </ul>
                 <h4>Informations</h4>
-                <ul className="my-6">
+                <ul className="my-4">
                   <li>Séances de TAA ou d’AAA à votre choix</li>
                   <li>
                     Présence d’un soignant, d’un proche ou de la tutelle si le
@@ -360,7 +360,7 @@ export default function Home() {
         </div>
       </div>
       <div className="py-6 bg-secondary">
-        <div className="container px-32 mx-auto mb-12">
+        <div className="container mx-auto mb-12">
           <h2 className="py-12 text-center text-white">
             Informations complémentaire
           </h2>
@@ -384,7 +384,9 @@ export default function Home() {
                 <li>A partir de 5km</li>
                 <li>0,50€ le km aller/retour*</li>
                 <li>1,00€ le km aller/retour avec le van*</li>
-                <p>*Évolutif</p>
+                <p className="pt-3 text-primary">
+                  <i>* Évolutif</i>
+                </p>
               </ul>
             </div>
             <div className="w-1/3 p-6 bg-white rounded-lg shadow-lg">

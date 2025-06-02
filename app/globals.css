@@ -103,4 +103,7 @@
   a {
     @apply w-52 text-center py-3 border-b-3 border-white text-lg font-semibold  hover:border-primary transition-colors;
   }
+  li {
+    @apply before:content-['★'] before:mr-2 before:text-primary mb-2;
+  }
 }
