@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -95,16 +95,16 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-2xl font-semibold;
+    @apply text-2xl font-medium;
   }
   h2 {
-    @apply text-3xl font-semibold;
+    @apply text-3xl font-medium;
   }
   h3 {
-    @apply text-2xl  font-semibold mb-4 text-gray-800;
+    @apply text-2xl  font-medium mb-4 text-gray-800;
   }
   h4 {
-    @apply text-xl font-semibold text-chart-4   p-1 pl-0;
+    @apply text-xl font-medium text-chart-4   p-1 pl-0;
   }
   p {
     @apply text-lg mb-3 font-light text-gray-700 text-center;
@@ -114,5 +114,11 @@
   }
   li {
     @apply before:content-['★'] before:mr-2 before:text-primary mb-2;
+  }
+  h2,
+  h3,
+  h4,
+  a {
+    font-family: "Fredoka", sans-serif;
   }
 }

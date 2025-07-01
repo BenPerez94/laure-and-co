@@ -13,7 +13,7 @@ export default function Home() {
       <div className="container pb-12 mx-auto text-center md:px-24" id="about">
         <Reveal delay={0}>
           <div className="px-4 py-12 mb-2 sm:px-6 md:px-12">
-            <h2 className="mb-6 text-2xl font-bold sm:text-3xl md:text-4xl text-primary">
+            <h2 className="mb-6 text-2xl sm:text-3xl md:text-4xl text-primary">
               Qui sommes-nous ?
             </h2>
             <div className="w-16 h-1 mx-auto mb-8 rounded-full bg-primary"></div>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl font-bold text-center text-white sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-white sm:text-3xl md:text-4xl">
                 Mes deux coéquipières
               </h2>
               <div className="w-16 h-1 mx-auto mb-8 bg-white rounded-full"></div>
@@ -105,7 +105,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl font-bold text-center sm:text-3xl md:text-4xl text-primary">
+              <h2 className="mb-6 text-2xl text-center sm:text-3xl md:text-4xl text-primary">
                 Qu'est-ce que la médiation animale ?
               </h2>
               <div className="w-16 h-1 mx-auto mb-8 rounded-full bg-primary"></div>
@@ -134,7 +134,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl font-bold text-center text-white sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-white sm:text-3xl md:text-4xl">
                 Qu’est-ce que l’AAA et la TAA?
               </h2>
 
@@ -192,7 +192,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl font-bold text-center sm:text-3xl md:text-4xl text-primary">
+              <h2 className="mb-6 text-2xl text-center sm:text-3xl md:text-4xl text-primary">
                 Comment accueillir une séance ?
               </h2>
               <div className="w-16 h-1 mx-auto mb-16 rounded-full bg-primary"></div>
@@ -259,7 +259,7 @@ export default function Home() {
       {/* PHOTO DE LAURE ET CO */}
       <div className="px-2 py-16 shadow-lg sm:px-4 md:px-24 md:py-16 bg-primary">
         <div className="container mx-auto md:px-24">
-          <h2 className="mb-12 text-2xl font-bold text-center text-white sm:text-3xl md:text-4xl">
+          <h2 className="mb-12 text-2xl text-center text-white sm:text-3xl md:text-4xl">
             Gallerie photos
           </h2>
           <PhotoGallery />
@@ -274,7 +274,7 @@ export default function Home() {
         >
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl font-bold text-center text-primary sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-primary sm:text-3xl md:text-4xl">
                 Tarifs et prestations
               </h2>
               <div className="w-16 h-1 mx-auto mb-4 rounded-full bg-primary"></div>
@@ -479,7 +479,7 @@ export default function Home() {
         <div className="container mx-auto mb-12">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl font-bold text-center text-white sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-white sm:text-3xl md:text-4xl">
                 Informations complémentaires
               </h2>
               <div className="w-16 h-1 mx-auto mb-16 bg-white rounded-full"></div>
