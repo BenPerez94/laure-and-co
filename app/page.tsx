@@ -191,7 +191,7 @@ export default function Home() {
       >
         <div className="container mx-auto md:px-24">
           <Reveal>
-            <div>
+            <div className="px-2 pb-6">
               <h2 className="mb-6 text-2xl text-center font-fredoka sm:text-3xl md:text-4xl text-primary">
                 Comment accueillir une séance ?
               </h2>
