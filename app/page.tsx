@@ -48,7 +48,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl text-center text-white sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-white font-fredoka sm:text-3xl md:text-4xl">
                 Mes deux coéquipières
               </h2>
               <div className="w-16 h-1 mx-auto mb-8 bg-white rounded-full"></div>

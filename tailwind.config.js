@@ -10,6 +10,7 @@ module.exports = {
         playwrite: ['"Playwrite Danmark Loopet"', "sans-serif"],
         geist: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
+        fredoka: ["Fredoka", "sans-serif"],
       },
     },
   },
