@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        playwrite: ["var(--font-playwrite)"],
+        playwrite: ['"Playwrite Danmark Loopet"', "sans-serif"],
         geist: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
       },

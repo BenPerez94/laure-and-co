@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -81,6 +82,14 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 200;
+  }
+  b {
+    font-weight: 600;
+  }
+  html {
+    @apply scroll-smooth;
   }
   body {
     @apply bg-background text-foreground;
@@ -90,18 +99,22 @@
   }
   h2 {
     @apply text-3xl font-semibold;
+    font-family: "Merienda", cursive;
   }
   h3 {
-    @apply text-2xl  font-semibold mb-4;
+    @apply text-2xl  font-semibold mb-4 text-gray-800;
+    font-family: "Merienda", cursive;
   }
   h4 {
     @apply text-xl font-semibold text-chart-4   p-1 pl-0;
+    font-family: "Merienda", cursive;
   }
   p {
-    @apply text-left text-base mb-3;
+    @apply text-lg mb-3 font-light text-gray-700 text-center;
   }
   a {
     @apply w-52 text-center py-3 border-b-3 border-white text-lg font-semibold  hover:border-primary transition-colors;
+    font-family: "Merienda", cursive;
   }
   li {
     @apply before:content-['★'] before:mr-2 before:text-primary mb-2;
