@@ -169,9 +169,9 @@ export default function Home() {
                     ou complémentaire aux thérapies conventionnelles. L’animal
                     devient un médiateur entre le professionnel et le patient.
                     Il est considéré comme un « collègue » thérapeutique. Ces
-                    séances se déroulent en individuelle ou en petit groupe et
-                    des objectifs à visée thérapeutique doivent être établies au
-                    préalable, lors de réunions de travail, avec les
+                    séances se déroulent en individuel ou en petit groupe, et
+                    des objectifs à visée thérapeutique doivent être établis au
+                    préalable, lors de réunions de travail avec les
                     professionnels de l’institution d’accueil. Les séances sont
                     régulières, minimum 1 fois tous les 15 jours, idéalement 1
                     fois par semaine. /!\ La TAA ne remplace pas les
