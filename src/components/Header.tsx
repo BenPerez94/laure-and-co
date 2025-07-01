@@ -17,7 +17,7 @@ export default function Header() {
             <div className="flex flex-col md:gap-6 md:flex-row">
               <Link
                 href="tel:0642125425"
-                className="flex items-center w-auto h-auto p-0 m-0 mr-12 text-base font-light text-center border-none"
+                className="flex items-center w-auto h-auto p-0 m-0 mr-12 text-base font-light text-center border-none font-fredoka"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -27,7 +27,7 @@ export default function Header() {
               </Link>
               <Link
                 href="mailto:laureandcoo@gmail.com"
-                className="flex items-center w-auto h-auto p-0 m-0 mr-12 text-base font-light text-center border-none"
+                className="flex items-center w-auto h-auto p-0 m-0 mr-12 text-base font-light text-center border-none font-fredoka"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -132,32 +132,32 @@ export default function Header() {
       >
         <Link
           href="#about"
-          className="px-4 py-2 text-lg font-light md:text-base"
+          className="px-4 py-2 text-lg font-light font-fredoka md:text-base"
         >
           Qui sommes-nous ?
         </Link>
         <Link
           href="#seance"
-          className="px-4 py-2 text-lg font-light md:text-base"
+          className="px-4 py-2 text-lg font-light font-fredoka md:text-base"
         >
           Acceuillir une séance
         </Link>
         <div className="hidden w-64 md:block"></div>
         <Link
           href="#aaa"
-          className="px-4 py-2 text-lg font-light md:w-52 md:text-base"
+          className="px-4 py-2 text-lg font-light font-fredoka md:w-52 md:text-base"
         >
           Médiation animale
         </Link>
         <Link
           href="#tarifs"
-          className="px-4 py-2 text-lg font-light md:w-24 md:text-base"
+          className="px-4 py-2 text-lg font-light font-fredoka md:w-24 md:text-base"
         >
           Tarif
         </Link>
         <Link
           href="#info-sup"
-          className="px-4 py-2 text-lg font-light md:w-32 md:text-base"
+          className="px-4 py-2 text-lg font-light font-fredoka md:w-32 md:text-base"
         >
           Plus d'infos
         </Link>

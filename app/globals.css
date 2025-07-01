@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -79,6 +78,10 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+.font-fredoka {
+  font-family: var(--font-fredoka), sans-serif;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -114,11 +117,5 @@
   }
   li {
     @apply before:content-['★'] before:mr-2 before:text-primary mb-2;
-  }
-  h2,
-  h3,
-  h4,
-  a {
-    font-family: "Fredoka", sans-serif;
   }
 }

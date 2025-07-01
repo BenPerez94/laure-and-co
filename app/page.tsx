@@ -13,7 +13,7 @@ export default function Home() {
       <div className="container pb-12 mx-auto text-center md:px-24" id="about">
         <Reveal delay={0}>
           <div className="px-4 py-12 mb-2 sm:px-6 md:px-12">
-            <h2 className="mb-6 text-2xl sm:text-3xl md:text-4xl text-primary">
+            <h2 className="mb-6 text-2xl font-fredoka sm:text-3xl md:text-4xl text-primary">
               Qui sommes-nous ?
             </h2>
             <div className="w-16 h-1 mx-auto mb-8 rounded-full bg-primary"></div>
@@ -105,7 +105,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl text-center sm:text-3xl md:text-4xl text-primary">
+              <h2 className="mb-6 text-2xl text-center font-fredoka sm:text-3xl md:text-4xl text-primary">
                 Qu'est-ce que la médiation animale ?
               </h2>
               <div className="w-16 h-1 mx-auto mb-8 rounded-full bg-primary"></div>
@@ -134,7 +134,7 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl text-center text-white sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-white font-fredoka sm:text-3xl md:text-4xl">
                 Qu’est-ce que l’AAA et la TAA?
               </h2>
 
@@ -142,7 +142,7 @@ export default function Home() {
 
               <div className="flex flex-col gap-6 md:flex-row">
                 <div className="w-full px-6 py-6 mb-6 bg-white rounded-lg shadow-lg md:w-1/2 sm:px-6 md:px-12 md:py-8 md:mb-8">
-                  <h3 className="my-4 text-center">
+                  <h3 className="my-4 text-center font-fredoka">
                     Animation Assistée par l’Animal (AAA)
                   </h3>
                   <p className="text-center">
@@ -161,7 +161,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full px-6 py-6 mb-6 bg-white rounded-lg shadow-lg md:w-1/2 sm:px-6 md:px-12 md:py-8 md:mb-8">
-                  <h3 className="my-4 text-center">
+                  <h3 className="my-4 text-center font-fredoka">
                     Thérapie Assistée par l’Animal (TAA)
                   </h3>
                   <p className="text-center">
@@ -192,14 +192,14 @@ export default function Home() {
         <div className="container mx-auto md:px-24">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl text-center sm:text-3xl md:text-4xl text-primary">
+              <h2 className="mb-6 text-2xl text-center font-fredoka sm:text-3xl md:text-4xl text-primary">
                 Comment accueillir une séance ?
               </h2>
               <div className="w-16 h-1 mx-auto mb-16 rounded-full bg-primary"></div>
 
               <div className="flex flex-col justify-between gap-8 text-center md:flex-row">
                 <div className="w-full p-4 mb-6 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-12 md:mb-0">
-                  <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 sm:gap-4 sm:-ml-6">
+                  <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 font-fredoka sm:gap-4 sm:-ml-6">
                     <Sparkle strokeWidth={2.25} /> Le matériel
                   </h3>
                   <p>
@@ -210,7 +210,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full p-4 pb-2 mb-6 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-12 md:mb-0">
-                  <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 sm:gap-4 sm:-ml-6">
+                  <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 font-fredoka sm:gap-4 sm:-ml-6">
                     <Sparkle strokeWidth={2.25} /> Le Lieu
                   </h3>
                   <p>
@@ -222,7 +222,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full p-4 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-12">
-                  <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 sm:gap-4 sm:-ml-6">
+                  <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 font-fredoka sm:gap-4 sm:-ml-6">
                     <Sparkle strokeWidth={2.25} /> Fin de séance
                   </h3>
                   <p>
@@ -234,7 +234,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full p-4 mx-auto mt-6 rounded-lg shadow-lg md:w-2/3 sm:p-8 md:p-12">
-                <h3 className="text-center">
+                <h3 className="text-center font-fredoka">
                   Prendre contact auprès de Laure & Co
                 </h3>
                 <ul className="text-center">
@@ -259,7 +259,7 @@ export default function Home() {
       {/* PHOTO DE LAURE ET CO */}
       <div className="px-2 py-16 shadow-lg sm:px-4 md:px-24 md:py-16 bg-primary">
         <div className="container mx-auto md:px-24">
-          <h2 className="mb-12 text-2xl text-center text-white sm:text-3xl md:text-4xl">
+          <h2 className="mb-12 text-2xl text-center text-white font-fredoka sm:text-3xl md:text-4xl">
             Gallerie photos
           </h2>
           <PhotoGallery />
@@ -274,13 +274,13 @@ export default function Home() {
         >
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl text-center text-primary sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center font-fredoka text-primary sm:text-3xl md:text-4xl">
                 Tarifs et prestations
               </h2>
               <div className="w-16 h-1 mx-auto mb-4 rounded-full bg-primary"></div>
 
               <div>
-                <h3 className="py-4 text-center md:py-6">
+                <h3 className="py-4 text-center font-fredoka md:py-6">
                   Animation Assistée par l'animal
                 </h3>
                 <div className="flex flex-col justify-between gap-6 md:flex-row">
@@ -313,7 +313,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="w-full px-4 py-6 mb-8 bg-white rounded-lg shadow-lg sm:px-6 md:px-12 md:py-8">
-                      <h4>Séances individuelles</h4>
+                      <h4 className="font-fredoka">Séances individuelles</h4>
                       <p className="mt-4 text-left">
                         Nombre de participant : 1 personne.
                         <br />
@@ -327,7 +327,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="w-full px-4 py-6 mb-8 bg-white rounded-lg shadow-lg md:w-1/2 sm:px-6 md:px-12 md:py-8">
-                    <h4>Exemples d’objectifs d’animation</h4>
+                    <h4 className="font-fredoka">
+                      Exemples d’objectifs d’animation
+                    </h4>
                     <ul className="my-4">
                       <li>Apaiser les angoisses et l’anxiété</li>
                       <li>Échanges et interactions</li>
@@ -338,7 +340,7 @@ export default function Home() {
                       </li>
                       <li>Apporter de la joie et de la tendresse</li>
                     </ul>
-                    <h4>Informations</h4>
+                    <h4 className="font-fredoka">Informations</h4>
                     <ul className="my-4">
                       <li>
                         Les participants peuvent différer d’une séance à une
@@ -364,13 +366,13 @@ export default function Home() {
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="py-4 text-center md:py-6">
+              <h3 className="py-4 text-center font-fredoka md:py-6">
                 Thérapie Assistée par l’animal
               </h3>
               <div className="flex flex-col justify-between gap-6 md:flex-row">
                 <div className="flex flex-col w-full md:w-3/4">
                   <div className="w-full px-4 py-6 mb-3 bg-white rounded-lg shadow-lg sm:px-6 md:px-12 md:py-8">
-                    <h4>Séance collective</h4>
+                    <h4 className="font-fredoka">Séance collective</h4>
                     <p className="mt-4 text-left">
                       Nombre de participants : 4 personnes maximum.
                     </p>
@@ -380,7 +382,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="w-full px-4 py-6 mb-8 bg-white rounded-lg shadow-lg sm:px-6 md:px-12 md:py-8">
-                    <h4>Séances individuelles</h4>
+                    <h4 className="font-fredoka">Séances individuelles</h4>
                     <p className="mt-4 text-left">
                       Nombre de participant : 1 personne.
                       <br />
@@ -394,7 +396,9 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="w-full px-4 py-6 mb-8 bg-white rounded-lg shadow-lg md:w-1/2 sm:px-6 md:px-12 md:py-8">
-                  <h4>Exemples d’objectifs d’animation</h4>
+                  <h4 className="font-fredoka">
+                    Exemples d’objectifs d’animation
+                  </h4>
                   <ul className="my-4">
                     <li>Apaiser les angoisses et l’anxiété</li>
                     <li>Valorisation du bénéficiaire</li>
@@ -402,7 +406,7 @@ export default function Home() {
                     <li>Apporter de la joie et de la tendresse</li>
                     <li>Rompre l’isolement et la solitude</li>
                   </ul>
-                  <h4>Informations</h4>
+                  <h4 className="font-fredoka">Informations</h4>
                   <ul className="my-4">
                     <li>
                       Les mêmes participants à chaque cycle de séances (suivies)
@@ -418,7 +422,9 @@ export default function Home() {
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="py-4 text-center md:py-6">Séances à domicile</h3>
+              <h3 className="py-4 text-center font-fredoka md:py-6">
+                Séances à domicile
+              </h3>
               <div className="flex flex-col justify-between gap-6 md:flex-row">
                 <div className="flex flex-col w-full md:w-3/4">
                   <div className="w-full px-4 py-6 mb-3 bg-white rounded-lg shadow-lg sm:px-6 md:px-12 md:py-8">
@@ -433,7 +439,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="w-full px-4 py-6 mb-8 bg-white rounded-lg shadow-lg sm:px-6 md:px-12 md:py-8">
-                    <h4>Séances individuelles</h4>
+                    <h4 className="font-fredoka">Séances individuelles</h4>
                     <p className="mt-4 text-left">
                       Nombre de participant : 1<br />
                       Il est possible d’ajouter une personne pour une séance en
@@ -446,14 +452,14 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="w-full px-4 py-4 mb-8 bg-white rounded-lg shadow-lg md:w-1/2 sm:px-6 md:px-12 md:py-8">
-                  <h4>Exemples d’objectifs</h4>
+                  <h4 className="font-fredoka">Exemples d’objectifs</h4>
                   <ul className="my-4">
                     <li>Rompre l’isolement, la solitude</li>
                     <li>Améliorer la motricité</li>
                     <li>Améliorer le moral</li>
                     <li>Stimuler la communication et la mémoire</li>
                   </ul>
-                  <h4>Informations</h4>
+                  <h4 className="font-fredoka">Informations</h4>
                   <ul className="my-4">
                     <li>Séances de TAA ou d’AAA à votre choix</li>
                     <li>
@@ -479,14 +485,16 @@ export default function Home() {
         <div className="container mx-auto mb-12">
           <Reveal>
             <div>
-              <h2 className="mb-6 text-2xl text-center text-white sm:text-3xl md:text-4xl">
+              <h2 className="mb-6 text-2xl text-center text-white font-fredoka sm:text-3xl md:text-4xl">
                 Informations complémentaires
               </h2>
               <div className="w-16 h-1 mx-auto mb-16 bg-white rounded-full"></div>
 
               <div className="flex flex-col gap-6 px-2 mb-8 md:flex-row md:gap-8 sm:px-6 md:px-12">
                 <div className="w-full p-4 bg-white rounded-lg shadow-lg md:w-1/3 md:p-6">
-                  <h4 className="text-center">Les tarifs comprennent :</h4>
+                  <h4 className="text-center font-fredoka">
+                    Les tarifs comprennent :
+                  </h4>
                   <ul className="mt-6">
                     <li>
                       Le suivi et les soins vétérinaires des animaux médiateurs
@@ -498,7 +506,9 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="w-full p-4 bg-white rounded-lg shadow-lg md:w-1/3 md:p-6">
-                  <h4 className="text-center">Frais kilométriques :</h4>
+                  <h4 className="text-center font-fredoka">
+                    Frais kilométriques :
+                  </h4>
                   <ul className="mt-6">
                     <li>Départ de Xertigny</li>
                     <li>A partir de 5km</li>
@@ -510,7 +520,9 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="w-full p-4 bg-white rounded-lg shadow-lg md:w-1/3 md:p-6">
-                  <h4 className="text-center">Astuces pour diminuer le prix</h4>
+                  <h4 className="text-center font-fredoka">
+                    Astuces pour diminuer le prix
+                  </h4>
                   <ul className="mt-6">
                     <li>
                       Trouver un financeur (département, caisse de retraite,

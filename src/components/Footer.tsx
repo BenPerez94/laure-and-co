@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Link
               href="tel:0642125425"
-              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none"
+              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none font-fredoka"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Link
               href="mailto:laureandcoo@gmail.com"
-              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none"
+              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none font-fredoka"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
