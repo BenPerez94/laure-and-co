@@ -2,12 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/src/components/Header";
-import { Playwrite_DK_Loopet } from "next/font/google";
 import Footer from "@/src/components/Footer";
-
-const playwrite = Playwrite_DK_Loopet({
-  variable: "--font-playwrite",
-});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playwrite.variable} antialiased bg-[#fafafa]`}
+        className={`${geistSans.variable} ${geistMono.variable}  antialiased bg-[#fafafa]`}
       >
         <Header />
         {children}
