@@ -260,7 +260,7 @@ export default function Home() {
       <div className="px-2 py-16 shadow-lg sm:px-4 md:px-24 md:py-16 bg-primary">
         <div className="container mx-auto md:px-24">
           <h2 className="mb-12 text-2xl text-center text-white font-fredoka sm:text-3xl md:text-4xl">
-            Gallerie photos
+            Galerie photos
           </h2>
           <PhotoGallery />
         </div>

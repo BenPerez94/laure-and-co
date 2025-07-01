@@ -4,8 +4,6 @@ import "./globals.css";
 import Header from "@/src/components/Header";
 import Footer from "@/src/components/Footer";
 
-// ...existing code...
-
 const fredoka = Fredoka({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -23,7 +21,29 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Laure and Co",
-  description: "Médiation animale",
+  description: "Médiation animale, bien-être et accompagnement par l’animal.",
+  openGraph: {
+    title: "Laure and Co",
+    description: "Médiation animale, bien-être et accompagnement par l’animal.",
+    url: "https://laureandco.fr",
+    siteName: "Laure and Co",
+    images: [
+      {
+        url: "https://laureandco.fr/og-image.jpg", // Mets ici le chemin absolu de ton image
+        width: 1200,
+        height: 630,
+        alt: "Laure and Co - Médiation animale",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Laure and Co",
+    description: "Médiation animale, bien-être et accompagnement par l’animal.",
+    images: ["https://laureandco.fr/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
