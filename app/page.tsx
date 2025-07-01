@@ -56,7 +56,7 @@ export default function Home() {
               <div className="flex flex-col gap-6">
                 <div className="flex flex-col items-center gap-6 px-2 py-6 mb-8 bg-white rounded-lg shadow-lg md:flex-row sm:px-6 md:px-12 md:py-8">
                   <Image
-                    src="/arizona.jpg"
+                    src="/Arizona.jpg"
                     alt="Arizona"
                     width={300}
                     height={300}
