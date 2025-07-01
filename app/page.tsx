@@ -205,7 +205,7 @@ export default function Home() {
                   <p>
                     Pour les séances collectives j’ai besoin, de votre part,
                     d’une table, ou deux selon le nombre de bénéficiaires qui
-                    participe, et des chaises. J’apporte tout le matériel
+                    participent, et des chaises. J’apporte tout le matériel
                     nécessaire pour assurer le bon déroulement de l’activité.
                   </p>
                 </div>
