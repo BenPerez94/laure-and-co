@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Laure & Co",
     images: [
       {
-        url: "https://laureandco.fr/og-image.jpg",
+        url: "https://laureandco.fr/og-image.png",
         width: 1200,
         height: 630,
         alt: "Laure & Co - Médiation animale",
