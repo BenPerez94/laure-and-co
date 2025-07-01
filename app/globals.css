@@ -82,8 +82,8 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    font-weight: 200;
   }
+
   b {
     font-weight: 600;
   }
@@ -92,6 +92,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-weight: 200;
   }
   h1 {
     @apply text-2xl font-medium;
