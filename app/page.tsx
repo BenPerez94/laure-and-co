@@ -198,7 +198,7 @@ export default function Home() {
               <div className="w-16 h-1 mx-auto mb-16 rounded-full bg-primary"></div>
 
               <div className="flex flex-col justify-between gap-8 text-center md:flex-row">
-                <div className="w-full p-4 mb-6 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-12 md:mb-0">
+                <div className="w-full p-2 mb-6 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-6 md:mb-0">
                   <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 font-fredoka sm:gap-4 sm:-ml-6">
                     <Sparkle strokeWidth={2.25} /> Le matériel
                   </h3>
@@ -209,7 +209,7 @@ export default function Home() {
                     nécessaire pour assurer le bon déroulement de l’activité.
                   </p>
                 </div>
-                <div className="w-full p-4 pb-2 mb-6 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-12 md:mb-0">
+                <div className="w-full p-4 pb-2 mb-6 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-6 md:mb-0">
                   <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 font-fredoka sm:gap-4 sm:-ml-6">
                     <Sparkle strokeWidth={2.25} /> Le Lieu
                   </h3>
@@ -221,7 +221,7 @@ export default function Home() {
                     lieu calme où il faut éviter les lieux de passage.
                   </p>
                 </div>
-                <div className="w-full p-4 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-12">
+                <div className="w-full p-4 rounded-lg shadow-lg md:w-1/3 sm:p-6 md:px-6">
                   <h3 className="flex items-center justify-center gap-2 mb-4 -ml-2 font-fredoka sm:gap-4 sm:-ml-6">
                     <Sparkle strokeWidth={2.25} /> Fin de séance
                   </h3>

@@ -31,7 +31,7 @@ export const Reveal = ({
   }, [isInView, mainControls, slideControls]);
 
   return (
-    <div ref={ref} className="relative p-6 overflow-hidden" style={{ width }}>
+    <div ref={ref} className="relative overflow-hidden" style={{ width }}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: -75 },
