@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Laure and Co",
     images: [
       {
-        url: "https://laureandco.fr/og-image.jpg", // Mets ici le chemin absolu de ton image
+        url: "https://laureandco.fr/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Laure and Co - Médiation animale",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Laure and Co",
     description: "Médiation animale, bien-être et accompagnement par l’animal.",
-    images: ["https://laureandco.fr/og-image.jpg"],
+    images: ["https://laureandco.fr/og-image.png"],
   },
 };
 
