@@ -13,6 +13,7 @@ export default function Home() {
       <div className="container pb-12 mx-auto text-center md:px-24" id="about">
         <Reveal delay={0}>
           <div className="px-4 py-12 mb-2 sm:px-6 md:px-12">
+            <h1 className="hidden">Laure and co Médiation animale</h1>
             <h2 className="mb-6 text-2xl font-fredoka sm:text-3xl md:text-4xl text-primary">
               Qui sommes-nous ?
             </h2>

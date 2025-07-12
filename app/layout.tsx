@@ -20,11 +20,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Laure & Co",
-  description: "Médiation animale, bien-être et accompagnement par l’animal.",
+  title: "Laure & Co - Médiation animale - Bien-être animal ",
+  description:
+    "Médiation animale dans les Vosges : séances bien-être, accompagnement personnalisé, activités éducatives et relationnelles pour tous publics.",
+  alternates: {
+    canonical: "https://laureandco.fr",
+  },
   openGraph: {
-    title: "Laure & Co",
-    description: "Médiation animale, bien-être et accompagnement par l’animal.",
+    title: "Laure & Co - Médiation animale - Bien-être animal",
+    description:
+      "Médiation animale dans les Vosges : séances bien-être, accompagnement personnalisé, activités éducatives et relationnelles pour tous publics.",
     url: "https://laureandco.fr",
     siteName: "Laure & Co",
     images: [
@@ -32,7 +37,7 @@ export const metadata: Metadata = {
         url: "https://laureandco.fr/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Laure & Co - Médiation animale",
+        alt: "Laure & Co - Médiation animale - Bien-être animal",
       },
     ],
     locale: "fr_FR",
@@ -40,8 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Laure & Co",
-    description: "Médiation animale, bien-être et accompagnement par l’animal.",
+    title: "Laure & Co - Médiation animale - Bien-être animal",
+    description:
+      "Médiation animale dans les Vosges : séances bien-être, accompagnement personnalisé, activités éducatives et relationnelles pour tous publics.",
     images: ["https://laureandco.fr/og-image.png"],
   },
 };

@@ -65,13 +65,15 @@ export default function PhotoGallery() {
             aria-label={`Voir la photo ${i + 1} en grand`}
             tabIndex={0}
           >
-            <Image
-              src={src}
-              alt={`Photo ${i + 1}`}
-              fill
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
-              sizes="(max-width: 768px) 50vw, 25vw"
-            />
+            <div className="relative w-full h-full aspect-square">
+              <Image
+                src={src}
+                alt={`Photo ${i + 1}`}
+                fill
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
+            </div>
           </button>
         ))}
       </div>
