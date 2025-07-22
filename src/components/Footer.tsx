@@ -5,7 +5,7 @@ import { Mail, Phone } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="p-4 text-center text-white bg-gray-900">
-      <div className="container flex flex-col items-center gap-4 mx-auto">
+      <div className="container flex flex-col items-center gap-3 mx-auto">
         {/* Bloc contact */}
         <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
           <div className="flex items-center gap-2">
@@ -63,6 +63,13 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        <Link
+          href="/mentions"
+          className="p-0 m-0 text-xs font-light border-none"
+          rel="noopener noreferrer"
+        >
+          Mentions légales
+        </Link>
         {/* Copyright et crédit */}
         <p className="m-0 text-sm text-center text-gray-400">
           © {new Date().getFullYear()} Laure & Co. Tous droits réservés. Conçu

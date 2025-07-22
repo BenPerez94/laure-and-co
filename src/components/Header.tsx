@@ -71,13 +71,15 @@ export default function Header() {
         {/* Logo centré */}
         <div className="relative w-[250px] h-[250px] md:-mb-24 -mb-12 bg-[#fafafa] rounded-full overflow-hidden p-10 flex items-center justify-center z-0 shadow-lg">
           <div className="relative w-full h-full">
-            <Image
-              src={"/logo.png"}
-              alt="Logo"
-              fill
-              sizes="(max-width: 768px) 180px, 250px"
-              className="object-contain"
-            />
+            <Link href="/">
+              <Image
+                src={"/logo.png"}
+                alt="Logo"
+                fill
+                sizes="(max-width: 768px) 180px, 250px"
+                className="object-contain"
+              />
+            </Link>
           </div>
         </div>
       </div>
@@ -131,32 +133,32 @@ export default function Header() {
         onClick={() => setMenuOpen(false)}
       >
         <Link
-          href="#about"
+          href="/#about"
           className="px-4 py-2 text-lg font-light font-fredoka md:text-base"
         >
           Qui sommes-nous ?
         </Link>
         <Link
-          href="#seance"
+          href="/#seance"
           className="px-4 py-2 text-lg font-light font-fredoka md:text-base"
         >
           Acceuillir une séance
         </Link>
         <div className="hidden w-64 md:block"></div>
         <Link
-          href="#aaa"
+          href="/#aaa"
           className="px-4 py-2 text-lg font-light font-fredoka md:w-52 md:text-base"
         >
           Médiation animale
         </Link>
         <Link
-          href="#tarifs"
+          href="/#tarifs"
           className="px-4 py-2 text-lg font-light font-fredoka md:w-24 md:text-base"
         >
           Tarif
         </Link>
         <Link
-          href="#info-sup"
+          href="/#info-sup"
           className="px-4 py-2 text-lg font-light font-fredoka md:w-32 md:text-base"
         >
           Plus d'infos
