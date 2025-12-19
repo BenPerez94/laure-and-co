@@ -306,7 +306,7 @@ export default function Home() {
                         Petit plus : en collaboration avec la Cavale Attraction,
                         nous vous proposons des séances de médiation animale à
                         bord d’une calèche. <br />
-                        *Minimum 1H30 - maximum 3H.
+                        *Minimum 2H - maximum 3H.
                       </p>
                       <p className="text-left text-primary">
                         <b>TARIF : de 200€ à 280€ selon la formule choisie*.</b>{" "}
@@ -511,7 +511,7 @@ export default function Home() {
                     Frais kilométriques :
                   </h4>
                   <ul className="mt-6">
-                    <li>Départ de Xertigny</li>
+                    <li>Départ de Liffol-le-Grand</li>
                     <li>A partir de 5km</li>
                     <li>0,50€ le km aller/retour*</li>
                     <li>1,00€ le km aller/retour avec le van*</li>
