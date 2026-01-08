@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-
+// @ts-nocheck
 import PhotoGallery from "@/src/components/PhotoGallery";
 import { Reveal } from "@/src/components/utils/Reveal";
 import { Sparkle } from "lucide-react";
@@ -64,7 +64,7 @@ export default function Home() {
                     className="rounded-lg w-full md:w-[300px] h-auto"
                   />
                   <p className="p-4 text-left md:p-0">
-                    <b>Arizona</b>, une ponette ONC âgée de 19 ans, mesure
+                    <b>Arizona</b>, une ponette ONC âgée de 20 ans, mesure
                     environ 1m30, ce qui en fait une grande ponette. Depuis 14
                     ans, notre complicité n'a cessé de grandir jusqu'à ce que je
                     devienne officiellement sa propriétaire en 2018. Calme et
@@ -84,7 +84,7 @@ export default function Home() {
                     className="rounded-lg w-full md:w-[350px] h-auto"
                   />
                   <p className="p-4 text-left md:p-0">
-                    <b>Life</b>, chien finnois de Laponie âgée de 2 ans, est une
+                    <b>Life</b>, chien finnois de Laponie âgée de 3 ans, est une
                     adorable boule de poils qui évoque un mini chien de traîneau
                     avec sa petite taille, son poil mi-long et sa queue enroulée
                     sur son dos. Toujours souriante, elle déborde d'énergie tout
