@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Link
               href="tel:0642125425"
-              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none font-fredoka"
+              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none font-fredoka hover:scale-110 transition "
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Link
               href="mailto:laureandcoo@gmail.com"
-              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none font-fredoka"
+              className="flex items-center w-auto h-auto p-0 m-0 text-base font-light text-center border-none font-fredoka hover:scale-110 transition " 
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="flex items-center gap-3 mt-2 md:mt-0">
             <Link
               href="https://www.facebook.com/profile.php?id=61557375502913&locale=fr_FR"
-              className="w-auto border-none"
+              className="w-auto border-none hover:scale-110 transition "
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -49,7 +49,7 @@ export default function Footer() {
             </Link>
             <Link
               href="https://www.instagram.com/laure_and.co?fbclid=IwY2xjawKuTdRleHRuA2FlbQIxMABicmlkETFvREMwSkIxemxFTUluOVRLAR72HHfFrk8gxWrkUg_x5j5h7S0gQVpmKDCtTRY3qrFmjGpqr1uTFx1zhaQJzg_aem_6sDIEj0-TtC1mlj8Gkpahw"
-              className="w-auto border-none"
+              className="w-auto border-none hover:scale-110 transition "
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -76,7 +76,7 @@ export default function Footer() {
           par{" "}
           <Link
             href="https://neblink.fr"
-            className="text-xs border-none"
+            className="text-xs border-none "
             target="_blank"
             rel="noopener noreferrer"
           >
