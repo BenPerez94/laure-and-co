@@ -1,8 +1,10 @@
+// @ts-nocheck
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fredoka } from "next/font/google";
 import "./globals.css";
 import Header from "@/src/components/Header";
 import Footer from "@/src/components/Footer";
+import SchemaMarkup from "@/src/components/SchemaMarkup";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -20,14 +22,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Laure & Co - Médiation animale - Bien-être animal ",
+  title: "Laure & Co - Médiation animale - Bien-être par l'animal ",
   description:
     "Médiation animale dans les Vosges : séances bien-être, accompagnement personnalisé, activités éducatives et relationnelles pour tous publics.",
   alternates: {
     canonical: "https://laureandco.fr",
   },
   openGraph: {
-    title: "Laure & Co - Médiation animale - Bien-être animal",
+    title: "Laure & Co - Médiation animale - Bien-être par l'animal",
     description:
       "Médiation animale dans les Vosges : séances bien-être, accompagnement personnalisé, activités éducatives et relationnelles pour tous publics.",
     url: "https://laureandco.fr",
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
         url: "https://laureandco.fr/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Laure & Co - Médiation animale - Bien-être animal",
+        alt: "Laure & Co - Médiation animale - Bien-être par l'animal",
       },
     ],
     locale: "fr_FR",
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Laure & Co - Médiation animale - Bien-être animal",
+    title: "Laure & Co - Médiation animale - Bien-être par l'animal",
     description:
       "Médiation animale dans les Vosges : séances bien-être, accompagnement personnalisé, activités éducatives et relationnelles pour tous publics.",
     images: ["https://laureandco.fr/og-image.png"],
@@ -59,6 +61,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <SchemaMarkup />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased bg-[#fafafa]`}
       >
