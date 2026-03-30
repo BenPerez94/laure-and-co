@@ -18,7 +18,7 @@ export default function SchemaMarkup() {
       "addressCountry": "FR"
     },
     "image": "https://laureandco.fr/og-image.png",
-    "priceRange": "€€",
+    "priceRange": "40-90€",
     "sameAs": [
       "https://www.facebook.com/profile.php?id=61557375502913",
       "https://www.instagram.com/laure_and.co"
